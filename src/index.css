@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@import '@radix-ui/themes/styles.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.diagonal-stripes {
+    background: repeating-linear-gradient(
+      45deg,
+      #0B0B28
+      #ffffff 10px,
+      #f0f0f0 10px,
+      #f0f0f0 20px
+    );
+  }
+  
