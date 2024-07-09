@@ -67,12 +67,12 @@ const Navbar = () => {
   return (
     <div className="relative w-full h-[84px] bg-[#21213e]">
       <div className="hidden md:inline-flex items-center gap-10 absolute top-[33px] left-20">
-        <div className="relative w-fit [font-family:'MuseoModerno-Bold',Helvetica] font-bold text-white text-xl tracking-[0] leading-[normal] whitespace-nowrap">
+        <div className="relative w-fit font-semibold text-[20px] font-MuseoModerno text-xl md:text-2xl text-white tracking-[0] leading-[normal] whitespace-nowrap">
           Timbu
         </div>
         <img className="relative w-px h-[17px] object-cover" alt="Line" src="line-1.svg" />
         <div className="inline-flex items-center gap-8 relative flex-[0_0_auto]">
-          <div className="relative w-fit mt-[-1.00px] [font-family:'PP_Neue_Montreal-Bold',Helvetica] font-bold text-white text-sm tracking-[0] leading-[normal]">
+          <div className="relative w-fit mt-[-1.00px] [font-family:'PP_Neue_Montreal-Bold',Helvetica] underline underline-offset-4 font-bold text-white text-sm tracking-[0] leading-[normal]">
             Products
           </div>
         </div>
